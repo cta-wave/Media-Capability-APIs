@@ -2,6 +2,8 @@
 
 Collects CTA WAVE's comment on W3C Media Capability APIs
 
+A first analysis was done here: https://1drv.ms/w/s!AiNJEPgowJnWgpQn_duIoacMuDdrtA?e=Yhy4cU
+
 The [Media Capabilities API](https://wicg.github.io/media-capabilities/) provides an improved alternative to the `isTypeSupported()` API for determining whether a given user agent is capable of encoding, decoding and rendering a piece of content.  
 
 To determine if a user-agent can decode a particular piece of content, the `mediaCapabilities.decodingInfo()` method is called. The method takes an instance of a `MediaDecodingConfiguration` object as an argument and returns as a `Promise` a `MediaCapabilitiesInfo` object.
